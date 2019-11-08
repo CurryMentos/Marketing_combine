@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd"
+       default-lazy-init="false">
+
+    <!--压测环境 -->
+    <!--<dubbo:registry protocol="zookeeper" address="xxx.xx.xx.x:2181"/>-->
+    <!--新综测环境-回归-->
+    <!--<dubbo:registry protocol="zookeeper" address="xxx.xx.xx.x:2181"/>-->
+
+    <!--46环境-->
+    <dubbo:registry protocol="zookeeper" id="zookeeper" address="zookeeper://xxx.xx.xx.x:2181"/>
+    <!--综测环境-->
+    <!--<dubbo:registry protocol="zookeeper"  id="zookeeper" address="zookeeper://xxx.xx.xx.x:2181"/>-->
+
+    <!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name="consumer-of-YxljConsumer-app"  />
+    <!--双向激励-->
+    <dubbo:reference id="encourageConfigService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.encourage.api.EncourageConfigService"/>
+    <dubbo:reference id="encourageQueryService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.encourage.api.EncourageQueryService"/>
+    <dubbo:reference id="encourageReceiveService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.encourage.api.EncourageReceiveService"/>
+    <!--推荐人-->
+    <dubbo:reference id="recConfigService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.recommend.api.RecConfigService"/>
+    <dubbo:reference id="recQueryService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.recommend.api.RecQueryService"/>
+    <dubbo:reference id="recBusinessService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.recommend.api.RecBusinessService"/>
+    <!--发放核心-->
+    <dubbo:reference id="distributeService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.distribute.api.DistributeService"/>
+    <dubbo:reference id="distributeQueryService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.distribute.api.DistributeQueryService"/>
+    <!--限额中心-->
+    <dubbo:reference id="limitAddService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.limit.api.LimitAddService"/>
+    <dubbo:reference id="limitConfigService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.limit.api.LimitConfigService"/>
+    <dubbo:reference id="limitQueryService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.limit.api.LimitQueryService"/>
+    <!--规则中心-->
+    <dubbo:reference id="ruleBusinessService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.rule.api.RuleBusinessService"/>
+    <dubbo:reference id="ruleConfigService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.rule.api.RuleConfigService"/>
+    <dubbo:reference id="ruleQueryService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.rule.api.RuleQueryService"/>
+    <!--配置中心-->
+    <!--activity-->
+    <dubbo:reference id="activityApplyService"
+                     interface="com.xx.marketing.config.api.activity.ActivityApplyService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <dubbo:reference id="activityService"
+                     interface="com.xx.marketing.config.api.activity.ActivityService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <dubbo:reference id="ompActivityConfigService"
+                     interface="com.xx.marketing.config.api.activity.OmpActivityConfigService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <!--audit-->
+    <dubbo:reference id="auditService"
+                     interface="com.xx.marketing.config.api.audit.AuditService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <!--common-->
+    <dubbo:reference id="activityToolService"
+                     interface="com.xx.marketing.config.api.common.ActivityToolService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <dubbo:reference id="applyService"
+                     interface="com.xx.marketing.config.api.common.ApplyService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <dubbo:reference id="dictService"
+                     interface="com.xx.marketing.config.api.common.DictService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <dubbo:reference id="generateIdService"
+                     interface="com.xx.marketing.config.api.common.GenerateIdService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <dubbo:reference id="merchantService"
+                     interface="com.xx.marketing.config.api.common.MerchantService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <dubbo:reference id="modifyStatusService"
+                     interface="com.xx.marketing.config.api.common.ModifyStatusService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <dubbo:reference id="uploadService"
+                     interface="com.xx.marketing.config.api.common.UploadService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <!--equity-->
+    <dubbo:reference id="equityApplyService"
+                     interface="com.xx.marketing.config.api.equity.EquityApplyService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <dubbo:reference id="equityService"
+                     interface="com.xx.marketing.config.api.equity.EquityService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <!--tools-->
+    <dubbo:reference id="toolApplyService"
+                     interface="com.xx.marketing.config.api.tools.ToolApplyService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <dubbo:reference id="toolEncourageService"
+                     interface="com.xx.marketing.config.api.tools.ToolEncourageService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <dubbo:reference id="toolMerchantRedService"
+                     interface="com.xx.marketing.config.api.tools.ToolMerchantRedService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <dubbo:reference id="toolRecommendService"
+                     interface="com.xx.marketing.config.api.tools.ToolRecommendService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <dubbo:reference id="toolService"
+                     interface="com.xx.marketing.config.api.tools.ToolService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <!--verify-->
+    <dubbo:reference id="verifiable"
+                     interface="com.xx.marketing.config.api.verify.Verifiable"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <!-- 活动管控-->
+    <!-- 活动查询类-->
+    <dubbo:reference id="activityQueryService"
+                     interface="com.xx.marketing.activity.operation.api.ActivityQueryService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+
+    <!-- 活动配置类-->
+    <dubbo:reference id="activityConfigService"
+                     interface="com.xx.marketing.activity.operation.api.ActivityConfigService"
+                     retries="0"
+                     timeout="3000"
+                     check="false"/>
+    <!--交易产品-->
+    <dubbo:reference id="tradeProductSeniorOrderService" timeout="3000" retries="0"
+                     interface="com.xx.tradeproduct.service.acquiring.api.TradeProductSeniorOrderService"
+                     version="1.0.0"/>
+    <dubbo:reference id="tradeProductOrderPayService" timeout="3000" retries="0"
+                     interface="com.xx.tradeproduct.service.acquiring.api.TradeProductOrderPayService"
+                     version="1.0.0"/>
+    <dubbo:reference id="tradeProductPayToolsQueryService" timeout="3000" retries="0"
+                     interface="com.xx.tradeproduct.service.common.api.TradeProductPayToolsQueryService"
+                     version="1.0.0"/>
+    <dubbo:reference id="tradeProductRefundService" timeout="3000" retries="0"
+                     interface="com.xx.tradeproduct.service.acquiring.api.TradeProductRefundService"
+                     version="1.0.0"/>
+
+<!--名单中心-->
+	<dubbo:reference id = "rosterCheckService"  timeout="3000" retries="0" interface="com.xx.marketing.roster.api.RosterCheckService"/>
+	<dubbo:reference id = "rosterConfigService"  timeout="3000" retries="0" interface="com.xx.marketing.roster.api.RosterConfigService"/>
+	<dubbo:reference id = "rosterQueryService"  timeout="3000" retries="0" interface="com.xx.marketing.roster.api.RosterQueryService"/>
+
+</beans>
