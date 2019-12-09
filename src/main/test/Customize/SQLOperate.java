@@ -363,7 +363,7 @@ public class SQLOperate extends DatabaseUtil {
     }
 
     //查询活动基本信息
-    public static void getBasicInfo(String ActivityId) throws Exception {
+    public static void getBasicInfo(String MarketCfgId) throws Exception {
         Map ActivityInfoMap = new HashMap<>();
         String MerchantId = null;//商户号
         String OutTxnType = null;//外部交易类型
@@ -372,7 +372,7 @@ public class SQLOperate extends DatabaseUtil {
         List<String> MerchantIdList = new ArrayList<>();
         List<String> OutTxnTypeList = new ArrayList<>();
         List<String> TxnChannelList = new ArrayList<>();
-        String MarketCfgId = "A30990191125181516000068";
+        
         InputStream inputStream = Resources.getResourceAsStream("Configuration.xml");
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
