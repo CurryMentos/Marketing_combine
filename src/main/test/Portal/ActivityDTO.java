@@ -1,6 +1,6 @@
 package Portal;
 
-import com.xx.marketing.config.api.activity.models.request.*;
+import com.bestpay.marketing.config.api.activity.models.request.*;
 
 import java.io.Serializable;
 

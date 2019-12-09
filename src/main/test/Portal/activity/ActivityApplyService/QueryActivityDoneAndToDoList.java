@@ -1,12 +1,12 @@
 package Portal.activity.ActivityApplyService;
 
-import com.xx.marketing.config.api.activity.models.PageInfoDTO;
+import com.bestpay.marketing.config.api.activity.models.PageInfoDTO;
 import com.google.common.collect.Lists;
 
-import com.xx.dubbo.result.Result;
-import com.xx.marketing.config.api.activity.ActivityApplyService;
-import com.xx.marketing.config.api.activity.models.request.ActivityTodoAndDoneQueryReqDTO;
-import com.xx.marketing.config.api.activity.models.response.ActivityApplyInfoDTO;
+import com.bestpay.dubbo.result.Result;
+import com.bestpay.marketing.config.api.activity.ActivityApplyService;
+import com.bestpay.marketing.config.api.activity.models.request.ActivityTodoAndDoneQueryReqDTO;
+import com.bestpay.marketing.config.api.activity.models.response.ActivityApplyInfoDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

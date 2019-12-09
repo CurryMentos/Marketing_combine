@@ -1,10 +1,10 @@
 package Rule.RuleQueryService;
 
 import Customize.DataGenerate;
-import com.xx.dubbo.result.Result;
-import com.xx.marketing.rule.api.RuleQueryService;
-import com.xx.marketing.rule.api.models.request.RulesQueryReqDTO;
-import com.xx.marketing.rule.api.models.response.RulesQueryResDTO;
+import com.bestpay.dubbo.result.Result;
+import com.bestpay.marketing.rule.api.RuleQueryService;
+import com.bestpay.marketing.rule.api.models.request.RulesQueryReqDTO;
+import com.bestpay.marketing.rule.api.models.response.RulesQueryResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

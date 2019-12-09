@@ -2,13 +2,13 @@ package Portal.tools.ToolEncourageService;//package config.tools.ToolEncourageSe
 //
 //import java.util.Date;
 //
-//import com.xx.marketing.config.api.activity.models.*;
-//import com.xx.dubbo.result.Result;
-//import com.xx.marketing.config.api.activity.models.request.GoodsReqDTO;
-//import com.xx.marketing.config.api.activity.models.request.MerchantReqDTO;
-//import com.xx.marketing.config.api.activity.models.request.StoreReqDTO;
-//import com.xx.marketing.config.api.activity.models.response.ModifyActivityResDTO;
-//import com.xx.marketing.config.api.tools.request.ModifyEncourageBasicInfoReqDTO;
+//import com.bestpay.marketing.config.api.activity.models.*;
+//import com.bestpay.dubbo.result.Result;
+//import com.bestpay.marketing.config.api.activity.models.request.GoodsReqDTO;
+//import com.bestpay.marketing.config.api.activity.models.request.MerchantReqDTO;
+//import com.bestpay.marketing.config.api.activity.models.request.StoreReqDTO;
+//import com.bestpay.marketing.config.api.activity.models.response.ModifyActivityResDTO;
+//import com.bestpay.marketing.config.api.tools.request.ModifyEncourageBasicInfoReqDTO;
 //import com.google.common.collect.Lists;
 //
 //import java.text.SimpleDateFormat;
@@ -16,8 +16,8 @@ package Portal.tools.ToolEncourageService;//package config.tools.ToolEncourageSe
 //
 //import com.google.common.collect.Sets;
 //
-//import com.xx.marketing.config.api.tools.ToolEncourageService;
-//import com.xx.marketing.config.api.tools.request.ModifyToolEncourageBasicInfoReqDTO;
+//import com.bestpay.marketing.config.api.tools.ToolEncourageService;
+//import com.bestpay.marketing.config.api.tools.request.ModifyToolEncourageBasicInfoReqDTO;
 //import org.springframework.context.ApplicationContext;
 //import org.springframework.context.support.ClassPathXmlApplicationContext;
 //import org.testng.annotations.Test;

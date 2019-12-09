@@ -1,12 +1,12 @@
 package Limit;
 
 import Customize.UserList;
-import com.xx.dubbo.result.Result;
-import com.xx.marketing.limit.api.LimitAddService;
-import com.xx.marketing.limit.api.LimitConfigService;
-import com.xx.marketing.limit.api.LimitQueryService;
-import com.xx.marketing.limit.api.models.*;
-import com.xx.marketing.limit.api.models.request.*;
+import com.bestpay.dubbo.result.Result;
+import com.bestpay.marketing.limit.api.LimitAddService;
+import com.bestpay.marketing.limit.api.LimitConfigService;
+import com.bestpay.marketing.limit.api.LimitQueryService;
+import com.bestpay.marketing.limit.api.models.*;
+import com.bestpay.marketing.limit.api.models.request.*;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

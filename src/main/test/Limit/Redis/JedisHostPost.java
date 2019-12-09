@@ -11,12 +11,12 @@ public class JedisHostPost {
 
     JedisClusterFactory jedisClusterFactory = new JedisClusterFactory();
 
-    String HostPost1 = "xxx.xx.xx.x:36379";
-    String HostPost2 = "xxx.xx.xx.x:36381";
-    String HostPost3 = "xxx.xx.xx.x:36379";
-    String HostPost4 = "xxx.xx.xx.x:36381";
-    String HostPost5 = "xxx.xx.xx.x:36379";
-    String HostPost6 = "xxx.xx.xx.x:36381";
+    String HostPost1 = "172.17.46.11:36379";
+    String HostPost2 = "172.17.46.11:36381";
+    String HostPost3 = "172.17.45.12:36379";
+    String HostPost4 = "172.17.45.12:36381";
+    String HostPost5 = "172.17.45.13:36379";
+    String HostPost6 = "172.17.45.13:36381";
 
     public JedisCluster getJedisCluster() {
         jedisClusterFactory.setGenericObjectPoolConfig(jedisPoolConfig);

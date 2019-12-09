@@ -1,16 +1,16 @@
 package Portal.tools.ToolApplyService;//package tools.ToolApplyService;
-//import com.xx.marketing.config.api.activity.models.request.ApplyCashReqDTO;
-//import com.xx.marketing.config.api.activity.models.request.ApplyVoucherReqDTO;
-//import com.xx.marketing.config.api.activity.models.request.ApplyCouponReqDTO;
+//import com.bestpay.marketing.config.api.activity.models.request.ApplyCashReqDTO;
+//import com.bestpay.marketing.config.api.activity.models.request.ApplyVoucherReqDTO;
+//import com.bestpay.marketing.config.api.activity.models.request.ApplyCouponReqDTO;
 //import com.google.common.collect.Lists;
 //import java.util.Date;
 //
-//import com.xx.dubbo.result.Result;
-//import com.xx.marketing.config.api.activity.models.request.*;
-//import com.xx.marketing.config.api.enums.*;
-//import com.xx.marketing.config.api.tools.ToolApplyService;
-//import com.xx.marketing.config.api.tools.request.ApplyToolBasicInfoReqDTO;
-//import com.xx.marketing.config.api.tools.request.ApplyToolConfigReqDTO;
+//import com.bestpay.dubbo.result.Result;
+//import com.bestpay.marketing.config.api.activity.models.request.*;
+//import com.bestpay.marketing.config.api.enums.*;
+//import com.bestpay.marketing.config.api.tools.ToolApplyService;
+//import com.bestpay.marketing.config.api.tools.request.ApplyToolBasicInfoReqDTO;
+//import com.bestpay.marketing.config.api.tools.request.ApplyToolConfigReqDTO;
 //import com.google.common.collect.Sets;
 //import org.springframework.context.ApplicationContext;
 //import org.springframework.context.support.ClassPathXmlApplicationContext;

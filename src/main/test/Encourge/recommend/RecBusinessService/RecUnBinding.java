@@ -1,9 +1,9 @@
 package Encourge.recommend.RecBusinessService;
 
 import Customize.DataGenerate;
-import com.xx.dubbo.result.Result;
-import com.xx.marketing.recommend.api.RecBusinessService;
-import com.xx.marketing.recommend.api.models.request.RecUnBindingReqDTO;
+import com.bestpay.dubbo.result.Result;
+import com.bestpay.marketing.recommend.api.RecBusinessService;
+import com.bestpay.marketing.recommend.api.models.request.RecUnBindingReqDTO;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

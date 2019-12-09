@@ -1,12 +1,12 @@
 package ActivityOperation.ActivityConfigService;
 
-import com.xx.dubbo.result.Result;
-import com.xx.marketing.activity.operation.api.ActivityConfigService;
-import com.xx.marketing.activity.operation.api.enums.*;
-import com.xx.marketing.activity.operation.api.models.GoodsDTO;
-import com.xx.marketing.activity.operation.api.models.MerchantDTO;
-import com.xx.marketing.activity.operation.api.models.request.ModifyActivityBasicInfoReqDTO;
-import com.xx.marketing.activity.operation.api.models.response.TradeStatusResDTO;
+import com.bestpay.dubbo.result.Result;
+import com.bestpay.marketing.activity.operation.api.ActivityConfigService;
+import com.bestpay.marketing.activity.operation.api.enums.*;
+import com.bestpay.marketing.activity.operation.api.models.GoodsDTO;
+import com.bestpay.marketing.activity.operation.api.models.MerchantDTO;
+import com.bestpay.marketing.activity.operation.api.models.request.ModifyActivityBasicInfoReqDTO;
+import com.bestpay.marketing.activity.operation.api.models.response.TradeStatusResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

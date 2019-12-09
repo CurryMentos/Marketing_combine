@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
  * Created by zengyouzu on 2019/9/29.
  */
 public class RedisTest {
-    static RedisHelp redisHelp = new RedisHelp("xxx.xx.xx.x", 26380);
+    static RedisHelp redisHelp = new RedisHelp("172.17.46.11", 26380);
 
     public static void getValue() {
         String key = "MARKETING_RULE_GROUP_CODE_KEY_" + "RGC37640558620450571123677";

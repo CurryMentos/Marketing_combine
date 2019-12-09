@@ -14,7 +14,7 @@ public class RedisTest {
     //    static JedisHostPost jedisHostPost = new JedisHostPost();
 //    static JedisCluster jedisCluster = jedisHostPost.getJedisCluster();
     static RecommendService recommendService = CombineTest.recommendService;
-    static RedisHelp redisHelp = new RedisHelp("xxx.xx.xx.x", 26380);
+    static RedisHelp redisHelp = new RedisHelp("172.17.46.11", 26380);
 
     public static void getValue() {
 //        String ToolId = recommendService.getToolId();

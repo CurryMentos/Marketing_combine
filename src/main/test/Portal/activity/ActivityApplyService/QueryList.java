@@ -1,15 +1,15 @@
 package Portal.activity.ActivityApplyService;
 
-import com.xx.dubbo.result.Result;
-import com.xx.marketing.config.api.activity.models.request.QueryActivityDraftReqDTO;
-import com.xx.marketing.config.api.activity.models.response.ActivityApplyInfoDTO;
+import com.bestpay.dubbo.result.Result;
+import com.bestpay.marketing.config.api.activity.models.request.QueryActivityDraftReqDTO;
+import com.bestpay.marketing.config.api.activity.models.response.ActivityApplyInfoDTO;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
-import com.xx.marketing.config.api.activity.ActivityApplyService;
+import com.bestpay.marketing.config.api.activity.ActivityApplyService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

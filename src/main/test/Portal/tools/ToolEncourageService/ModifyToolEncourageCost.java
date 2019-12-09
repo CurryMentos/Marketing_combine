@@ -1,10 +1,10 @@
 package Portal.tools.ToolEncourageService;//package config.tools.ToolEncourageService;
 //import com.google.common.collect.Lists;
-//import com.xx.marketing.config.api.activity.models.*;
-//import com.xx.dubbo.result.Result;
-//import com.xx.marketing.config.api.activity.models.request.CostReqDTO;
-//import com.xx.marketing.config.api.activity.models.response.ModifyActivityResDTO;
-//import com.xx.marketing.config.api.tools.request.ModifyEncourageCostReqDTO;
+//import com.bestpay.marketing.config.api.activity.models.*;
+//import com.bestpay.dubbo.result.Result;
+//import com.bestpay.marketing.config.api.activity.models.request.CostReqDTO;
+//import com.bestpay.marketing.config.api.activity.models.response.ModifyActivityResDTO;
+//import com.bestpay.marketing.config.api.tools.request.ModifyEncourageCostReqDTO;
 //
 //import java.text.SimpleDateFormat;
 //import java.util.ArrayList;
@@ -15,8 +15,8 @@ package Portal.tools.ToolEncourageService;//package config.tools.ToolEncourageSe
 //
 //import com.google.common.collect.Sets;
 //
-//import com.xx.marketing.config.api.tools.ToolEncourageService;
-//import com.xx.marketing.config.api.tools.request.ModifyToolEncourageCostReqDTO;
+//import com.bestpay.marketing.config.api.tools.ToolEncourageService;
+//import com.bestpay.marketing.config.api.tools.request.ModifyToolEncourageCostReqDTO;
 //import org.springframework.context.ApplicationContext;
 //import org.springframework.context.support.ClassPathXmlApplicationContext;
 //import org.testng.annotations.Test;

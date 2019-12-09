@@ -4,10 +4,10 @@ package Portal.tools.ToolApplyService;//package tools.ToolApplyService;
 //
 //import java.util.Date;
 //
-//import com.xx.dubbo.result.Result;
-//import com.xx.marketing.config.api.tools.ToolApplyService;
-//import com.xx.marketing.config.api.tools.request.ToolApplyQueryReqDTO;
-//import com.xx.marketing.config.api.tools.response.ToolApplyInfoDTO;
+//import com.bestpay.dubbo.result.Result;
+//import com.bestpay.marketing.config.api.tools.ToolApplyService;
+//import com.bestpay.marketing.config.api.tools.request.ToolApplyQueryReqDTO;
+//import com.bestpay.marketing.config.api.tools.response.ToolApplyInfoDTO;
 //import org.springframework.context.ApplicationContext;
 //import org.springframework.context.support.ClassPathXmlApplicationContext;
 //import org.testng.annotations.Test;

@@ -1,49 +1,48 @@
 package Portal.common.UploadService;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.UUID;
 
-import com.xx.dubbo.result.Result;
-import com.xx.marketing.config.api.common.UploadService;
-import com.xx.marketing.config.api.common.models.request.AttachmentReqDTO;
-import com.xx.marketing.config.api.common.models.response.AttachmentRespDTO;
+import Customize.DataGenerate;
+import com.alibaba.fastjson.JSON;
+import com.bestpay.dubbo.result.Result;
+import com.bestpay.marketing.config.api.common.UploadService;
+import com.bestpay.marketing.config.api.common.models.request.AttachmentReqDTO;
+import com.bestpay.marketing.config.api.common.models.response.AttachmentRespDTO;
+import com.bestpay.marketing.config.api.enums.FileTypeEnum;
+import com.bestpay.marketing.encourage.api.enums.MerchantTypeEnum;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;
 
 /**
  * Created by yangwei on 2019/6/19.
- * �ϴ�����
+ * 更改附件
  */
-public class UploadAttachment {
-    @Test
-    public static void uploadAttachment() throws Exception{
-        ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:marketingManager-consumer.xml");
-        UploadService uploadService = (UploadService)  ac.getBean("UploadService");
-        String traceLogId = UUID.randomUUID().toString().replaceAll("-", "");
-        Date date = new Date();
-        String str = new SimpleDateFormat("yyyyMMddHHmmssSSSS").format(date);
+public class UploadAttachment extends DataGenerate {
+    static ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
+    static UploadService uploadService = (UploadService) ac.getBean("uploadService");
 
+    @Test
+    public static void uploadAttachment() throws Exception {
         AttachmentReqDTO attachmentReqDTO = new AttachmentReqDTO();
-        attachmentReqDTO.setApplyUser("");
+        attachmentReqDTO.setApplyUser("DZHB_apply1");
         attachmentReqDTO.setModelId("");
         attachmentReqDTO.setBase64Code("");
         attachmentReqDTO.setFileName("");
-        attachmentReqDTO.setFileType("");
-        attachmentReqDTO.setMerchantType("");
+        attachmentReqDTO.setFileType(FileTypeEnum.MERCHANT_FILE.getCode());
+        attachmentReqDTO.setMerchantType(MerchantTypeEnum.COMPANY.getCode());
         attachmentReqDTO.setFilePrefix("");
-        attachmentReqDTO.setRequestNo("");
-        attachmentReqDTO.setRequestSystem("");
-        attachmentReqDTO.setRequestDate(date);
-        attachmentReqDTO.setTraceLogId(traceLogId);
+        attachmentReqDTO.setRequestNo("Req"+RandomStringNo());
+        attachmentReqDTO.setRequestSystem("test");
+        attachmentReqDTO.setRequestDate(new Date());
+        attachmentReqDTO.setTraceLogId(TraceLogId());
 
         Result<AttachmentRespDTO> result = uploadService.uploadAttachment(attachmentReqDTO);
+        String json = JSON.toJSONString(result.getResult());
         System.out.println("***********************************");
-        System.out.println("��־�ţ�" + attachmentReqDTO.getTraceLogId());
-        System.out.println(result);
-
-        if (result.getResult() != null){
-            System.out.print(result.getResult());
-        }
+        System.out.println("日志:" + attachmentReqDTO.getTraceLogId());
+        System.out.println(json);
     }
 }

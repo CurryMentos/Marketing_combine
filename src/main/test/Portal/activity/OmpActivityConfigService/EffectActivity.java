@@ -1,15 +1,15 @@
 package Portal.activity.OmpActivityConfigService;/*
 package config.activity.OmpActivityConfigService;
-import com.xx.marketing.config.api.activity.models.request.*;
-import com.xx.marketing.config.api.enums.*;
+import com.bestpay.marketing.config.api.activity.models.request.*;
+import com.bestpay.marketing.config.api.enums.*;
 import com.google.common.collect.Sets;
 
-import com.xx.dubbo.result.Result;
+import com.bestpay.dubbo.result.Result;
 
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-import com.xx.marketing.config.api.activity.OmpActivityConfigService;
+import com.bestpay.marketing.config.api.activity.OmpActivityConfigService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

@@ -3,10 +3,10 @@ package Portal.common.DictService;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-import com.xx.dubbo.result.Result;
-import com.xx.marketing.config.api.common.DictService;
-import com.xx.marketing.config.api.common.models.DictDTO;
-import com.xx.marketing.config.api.common.models.request.DictionaryItemQueryReqDTO;
+import com.bestpay.dubbo.result.Result;
+import com.bestpay.marketing.config.api.common.DictService;
+import com.bestpay.marketing.config.api.common.models.DictDTO;
+import com.bestpay.marketing.config.api.common.models.request.DictionaryItemQueryReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

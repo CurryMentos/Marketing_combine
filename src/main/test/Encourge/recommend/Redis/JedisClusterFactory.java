@@ -1,5 +1,5 @@
 /**
- * xx.com.cn Inc.
+ * Bestpay.com.cn Inc.
  * Copyright (c) 2011-2018 All Rights Reserved.
  */
 package Encourge.recommend.Redis;

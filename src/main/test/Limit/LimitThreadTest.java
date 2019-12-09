@@ -182,9 +182,9 @@ public class LimitThreadTest {
     public void TestA() {
         for (int i = 1; i <= 1; i++) {
             try {
-//                new LimitThread().run();
+                new LimitThread().run();
 //                new LimitThread1().run();
-                new LimitThread2().run();
+//                new LimitThread2().run();
 //                new LimitThread3().run();
 //                new LimitThread4().run();
 //                new LimitThread5().run();

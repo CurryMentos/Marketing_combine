@@ -11,7 +11,7 @@ public class JedisHostPost {
 
     JedisClusterFactory jedisClusterFactory = new JedisClusterFactory();
 
-    String HostPost = "xxx.xx.xx.x:26379";
+    String HostPost = "172.17.46.11:26379";
 
     public JedisCluster getJedisCluster() {
         jedisClusterFactory.setGenericObjectPoolConfig(jedisPoolConfig);

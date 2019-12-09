@@ -1,19 +1,19 @@
 package Portal.activity.ActivityService;
 import java.util.Date;
 
-import com.xx.dubbo.result.Result;
-import com.xx.marketing.config.api.activity.models.ModifySharingInfoDTO;
-import com.xx.marketing.config.api.activity.models.request.ModifyOmpEquityDetailDTO;
-import com.xx.marketing.config.api.activity.models.response.ModifyActivityResDTO;
+import com.bestpay.dubbo.result.Result;
+import com.bestpay.marketing.config.api.activity.models.ModifySharingInfoDTO;
+import com.bestpay.marketing.config.api.activity.models.request.ModifyOmpEquityDetailDTO;
+import com.bestpay.marketing.config.api.activity.models.response.ModifyActivityResDTO;
 
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-import com.xx.marketing.config.api.activity.ActivityService;
-import com.xx.marketing.config.api.activity.models.request.ModifyActivityCostReqDTO;
-import com.xx.marketing.config.api.enums.ApplyChannelEnum;
-import com.xx.marketing.config.api.enums.EquityTypeEnum;
-import com.xx.marketing.config.api.enums.SwitchEnum;
+import com.bestpay.marketing.config.api.activity.ActivityService;
+import com.bestpay.marketing.config.api.activity.models.request.ModifyActivityCostReqDTO;
+import com.bestpay.marketing.config.api.enums.ApplyChannelEnum;
+import com.bestpay.marketing.config.api.enums.EquityTypeEnum;
+import com.bestpay.marketing.config.api.enums.SwitchEnum;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

@@ -153,7 +153,7 @@ public class RecommendThreadTest extends CombineTest {
     //已有工具立即邀请-绑定-3.0正交易
     public static class RecommendThread5 extends Thread {
         public void run() {
-            recommendService.setToolId("T30990191010102319000078");
+            recommendService.setToolId("T30990191128142448000134");
             CombineTest.recInviation();
             try {
                 sleep(1000);
@@ -166,7 +166,7 @@ public class RecommendThreadTest extends CombineTest {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            /*SQLOperate.getBindingInfo();
+            SQLOperate.getBindingInfo();
             SQLOperate.checkAccount();
             CombineTest.createAndPay();
             try {
@@ -174,7 +174,7 @@ public class RecommendThreadTest extends CombineTest {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            SQLOperate.checkBindingStatus();*/
+            SQLOperate.checkBindingStatus();
         }
     }
 

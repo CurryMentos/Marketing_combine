@@ -1,17 +1,17 @@
 package Encourge.recommend.RecConfigService;
-import com.xx.marketing.config.api.enums.ApplyDepartmentEnum;
-import com.xx.marketing.config.api.enums.RecThemeTypeEnum;
+import com.bestpay.marketing.config.api.enums.ApplyDepartmentEnum;
+import com.bestpay.marketing.config.api.enums.RecThemeTypeEnum;
 import com.google.common.collect.Sets;
 
 import Customize.DataGenerate;
 import Customize.UserList;
 import Encourge.recommend.RecommendService;
-import com.xx.dubbo.result.Result;
-import com.xx.marketing.config.api.enums.ActivityTypeEnum;
-import com.xx.marketing.recommend.api.RecConfigService;
-import com.xx.marketing.recommend.api.enums.RecJumpTypeEnum;
-import com.xx.marketing.recommend.api.enums.RecSubThemeTypeEnum;
-import com.xx.marketing.recommend.api.models.request.RecEffectReqDTO;
+import com.bestpay.dubbo.result.Result;
+import com.bestpay.marketing.config.api.enums.ActivityTypeEnum;
+import com.bestpay.marketing.recommend.api.RecConfigService;
+import com.bestpay.marketing.recommend.api.enums.RecJumpTypeEnum;
+import com.bestpay.marketing.recommend.api.enums.RecSubThemeTypeEnum;
+import com.bestpay.marketing.recommend.api.models.request.RecEffectReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

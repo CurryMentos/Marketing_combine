@@ -1,10 +1,10 @@
 package ActivityOperation.ActivityQueryService;
 
 import Customize.DataGenerate;
-import com.xx.dubbo.result.Result;
-import com.xx.marketing.activity.operation.api.ActivityQueryService;
-import com.xx.marketing.activity.operation.api.models.request.QueryValidActivityReqDTO;
-import com.xx.marketing.activity.operation.api.models.response.ApplicableActivityResDTO;
+import com.bestpay.dubbo.result.Result;
+import com.bestpay.marketing.activity.operation.api.ActivityQueryService;
+import com.bestpay.marketing.activity.operation.api.models.request.QueryValidActivityReqDTO;
+import com.bestpay.marketing.activity.operation.api.models.response.ApplicableActivityResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

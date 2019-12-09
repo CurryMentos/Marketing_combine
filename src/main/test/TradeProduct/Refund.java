@@ -1,10 +1,10 @@
 package TradeProduct;
 
 import Customize.DataGenerate;
-import com.xx.dubbo.result.Result;
-import com.xx.tradeproduct.service.acquiring.api.TradeProductRefundService;
-import com.xx.tradeproduct.service.acquiring.api.model.TradeProductRefundReqDTO;
-import com.xx.tradeproduct.service.acquiring.api.model.result.TradeProductBaseResDTO;
+import com.bestpay.dubbo.result.Result;
+import com.bestpay.tradeproduct.service.acquiring.api.TradeProductRefundService;
+import com.bestpay.tradeproduct.service.acquiring.api.model.TradeProductRefundReqDTO;
+import com.bestpay.tradeproduct.service.acquiring.api.model.result.TradeProductBaseResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

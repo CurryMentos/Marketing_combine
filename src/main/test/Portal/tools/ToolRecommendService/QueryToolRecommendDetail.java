@@ -7,10 +7,10 @@ import Customize.DataGenerate;
 import Portal.CustomizedService;
 import Portal.Preset;
 import Portal.ToolDTO;
-import com.xx.dubbo.result.Result;
-import com.xx.marketing.config.api.tools.ToolRecommendService;
-import com.xx.marketing.config.api.tools.request.QueryToolApplyDetailReqDTO;
-import com.xx.marketing.config.api.tools.response.ApplyToolRecommendDetailResDTO;
+import com.bestpay.dubbo.result.Result;
+import com.bestpay.marketing.config.api.tools.ToolRecommendService;
+import com.bestpay.marketing.config.api.tools.request.QueryToolApplyDetailReqDTO;
+import com.bestpay.marketing.config.api.tools.response.ApplyToolRecommendDetailResDTO;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

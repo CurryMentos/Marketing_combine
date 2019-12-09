@@ -16,9 +16,9 @@ public class HttpTest {
         boolean flag = false;
         //定义url
         //46地址
-        String url = "http://xxx.xx.xx.x:8030/batchAddMarketSyncDetail.html?applyId=" + recommendService.getApplyId();
+        String url = "http://172.17.39.77:8030/batchAddMarketSyncDetail.html?applyId=" + recommendService.getApplyId();
         //综测地址
-//        String url = "http://xxx.xx.xx.x:8030/batchAddMarketSyncDetail.html?applyId=" + recommendService.getApplyId();
+//        String url = "http://172.17.165.186:8030/batchAddMarketSyncDetail.html?applyId=" + recommendService.getApplyId();
 
         System.out.println("********************推荐人工具定时任务生效链接********************");
 
@@ -35,9 +35,9 @@ public class HttpTest {
         boolean flag = false;
         //定义url
         //46地址
-//        String url = "http://xxx.xx.xx.x:8030/asynRecognizeJob.html";
+//        String url = "http://172.17.39.75:8030/asynRecognizeJob.html";
         //综测地址
-        String url = "http://xxx.xx.xx.x:8030/asynRecognizeJob.html";
+        String url = "http://172.17.165.172:8030/asynRecognizeJob.html";
 
         System.out.println("********************台账异步认款定时任务********************");
 
