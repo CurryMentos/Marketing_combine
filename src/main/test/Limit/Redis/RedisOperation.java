@@ -1,6 +1,6 @@
 package Limit.Redis;
 /**
- * Bestpay.com.cn Inc.
+ * xx.com.cn Inc.
  * Copyright (c) 2011-2017 All Rights Reserved.
  */
 

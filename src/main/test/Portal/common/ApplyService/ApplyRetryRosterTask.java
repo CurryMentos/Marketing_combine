@@ -1,14 +1,14 @@
 package Portal.common.ApplyService;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
-import com.bestpay.marketing.config.api.activity.models.PageInfoDTO;
-import com.bestpay.marketing.config.api.activity.models.request.QueryApplyTypeReqDTO;
-import com.bestpay.marketing.config.api.common.ApplyService;
-import com.bestpay.marketing.config.api.common.MerchantService;
-import com.bestpay.marketing.config.api.common.models.request.QueryRosterStoreReqDTO;
-import com.bestpay.marketing.config.api.common.models.request.RetryRosterTaskReqDTO;
-import com.bestpay.marketing.config.api.common.models.response.RosterStoreResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
+import com.xx.marketing.config.api.activity.models.PageInfoDTO;
+import com.xx.marketing.config.api.activity.models.request.QueryApplyTypeReqDTO;
+import com.xx.marketing.config.api.common.ApplyService;
+import com.xx.marketing.config.api.common.MerchantService;
+import com.xx.marketing.config.api.common.models.request.QueryRosterStoreReqDTO;
+import com.xx.marketing.config.api.common.models.request.RetryRosterTaskReqDTO;
+import com.xx.marketing.config.api.common.models.response.RosterStoreResDTO;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 

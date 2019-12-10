@@ -1,10 +1,10 @@
 package Portal.activity.ActivityApplyService;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.activity.ActivityApplyService;
-import com.bestpay.marketing.config.api.activity.models.request.QueryCommonAppliedReqDTO;
-import com.bestpay.marketing.config.api.activity.models.response.ActivityApplyInfoDTO;
-import com.bestpay.marketing.config.api.enums.QueryTypeEnum;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.activity.ActivityApplyService;
+import com.xx.marketing.config.api.activity.models.request.QueryCommonAppliedReqDTO;
+import com.xx.marketing.config.api.activity.models.response.ActivityApplyInfoDTO;
+import com.xx.marketing.config.api.enums.QueryTypeEnum;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

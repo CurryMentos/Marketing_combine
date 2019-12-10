@@ -5,10 +5,10 @@ import com.google.common.collect.Lists;
 import java.util.ArrayList;
 import java.util.Date;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.audit.AuditService;
-import com.bestpay.marketing.config.api.audit.models.request.AuditReqDTO;
-import com.bestpay.marketing.config.api.audit.models.response.AuditResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.audit.AuditService;
+import com.xx.marketing.config.api.audit.models.request.AuditReqDTO;
+import com.xx.marketing.config.api.audit.models.response.AuditResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

@@ -2,10 +2,10 @@ package Encourge.recommend.RecQueryService;
 
 import Customize.DataGenerate;
 import Encourge.recommend.RecommendService;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.recommend.api.RecQueryService;
-import com.bestpay.marketing.recommend.api.models.request.RecToolRuleDetailReqDTO;
-import com.bestpay.marketing.recommend.api.models.response.RecToolRuleDetailResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.recommend.api.RecQueryService;
+import com.xx.marketing.recommend.api.models.request.RecToolRuleDetailReqDTO;
+import com.xx.marketing.recommend.api.models.response.RecToolRuleDetailResDTO;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

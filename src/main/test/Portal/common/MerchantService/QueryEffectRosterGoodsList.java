@@ -2,12 +2,12 @@ package Portal.common.MerchantService;
 
 import Customize.DataGenerate;
 import com.alibaba.fastjson.JSON;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
-import com.bestpay.marketing.config.api.activity.models.PageInfoDTO;
-import com.bestpay.marketing.config.api.common.MerchantService;
-import com.bestpay.marketing.config.api.common.models.request.QueryEffectRosterGoodsReqDTO;
-import com.bestpay.marketing.config.api.common.models.response.EffectRosterGoodsResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
+import com.xx.marketing.config.api.activity.models.PageInfoDTO;
+import com.xx.marketing.config.api.common.MerchantService;
+import com.xx.marketing.config.api.common.models.request.QueryEffectRosterGoodsReqDTO;
+import com.xx.marketing.config.api.common.models.response.EffectRosterGoodsResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

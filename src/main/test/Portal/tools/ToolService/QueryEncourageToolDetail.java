@@ -3,10 +3,10 @@ package Portal.tools.ToolService;
 import java.util.Date;
 
 import Customize.DataGenerate;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.tools.ToolService;
-import com.bestpay.marketing.config.api.tools.request.QueryToolDetailReqDTO;
-import com.bestpay.marketing.config.api.tools.response.QueryEncourageToolDetailResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.tools.ToolService;
+import com.xx.marketing.config.api.tools.request.QueryToolDetailReqDTO;
+import com.xx.marketing.config.api.tools.response.QueryEncourageToolDetailResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

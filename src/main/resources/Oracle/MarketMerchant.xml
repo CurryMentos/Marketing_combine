@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 为这个mapper指定一个唯一的namespace，namespace的值习惯上设置成包名+sql映射文件名，这样就能够保证namespace的值是唯一的
+例如namespace="me.gacl.mapping.userMapper"就是me.gacl.mapping(包名)+userMapper(userMapper.xml文件去除后缀)
+ -->
+
+<mapper namespace="MerchantTest">
+
+    <insert id="insertMerchant" parameterType="Customize.SQLTable.Oracle.T_MARKET_MERCHANT_RELATION">
+
+        insert into t_market_merchant_relation
+        (RECORD_NO,
+        MARKET_CFG_ID,
+        MERCHANT_ID,
+        VALID_FLAG,
+        CREATE_TIME,
+        CREATE_USER_ID,
+        CHECK_FLAG,
+        CHECK_TIME,
+        CHECK_USER,
+        UPDATE_USER,
+        UPDATE_TIME,
+        REMARK,
+        MERCHANT_ALTERNATE_NAME,
+        GOODS_GROUP_CODE,
+        STORE_GROUP_CODE,
+        GOODS_MARKETING_FLAG,
+        STORE_MARKETING_FLAG)
+        values
+        (#{RECORD_NO,jdbcType=VARCHAR},
+        #{MARKET_CFG_ID,jdbcType=VARCHAR},
+        #{MERCHANT_ID,jdbcType=VARCHAR},
+        #{VALID_FLAG,jdbcType=VARCHAR},
+        #{CREATE_TIME,jdbcType=DATE},
+        #{CREATE_USER_ID,jdbcType=VARCHAR},
+        #{CHECK_FLAG,jdbcType=BIGINT},
+        #{CHECK_TIME,jdbcType=DATE},
+        #{CHECK_USER,jdbcType=VARCHAR},
+        #{UPDATE_USER,jdbcType=VARCHAR},
+        #{UPDATE_TIME,jdbcType=DATE},
+        #{REMARK,jdbcType=VARCHAR},
+        #{MERCHANT_ALTERNATE_NAME,jdbcType=VARCHAR},
+        #{GOODS_GROUP_CODE,jdbcType=VARCHAR},
+        #{STORE_GROUP_CODE,jdbcType=VARCHAR},
+        #{GOODS_MARKETING_FLAG,jdbcType=VARCHAR},
+        #{STORE_MARKETING_FLAG,jdbcType=VARCHAR})
+
+    </insert>
+
+    <select id="selectMerchant" parameterType="Customize.SQLTable.Oracle.T_MARKET_MERCHANT_RELATION"
+            resultType="Customize.SQLTable.Oracle.T_MARKET_MERCHANT_RELATION">
+
+        SELECT t.MERCHANT_ID FROM t_market_merchant_relation t WHERE t.VALID_FLAG = 1 AND t.CHECK_FLAG = 2
+        AND t.MARKET_CFG_ID = #{MARKET_CFG_ID,jdbcType=VARCHAR}
+
+    </select>
+
+</mapper>

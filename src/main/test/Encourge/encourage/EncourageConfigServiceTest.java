@@ -1,15 +1,15 @@
 package Encourge.encourage;
 
 import Customize.UserList;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.encourage.api.EncourageConfigService;
-import com.bestpay.marketing.encourage.api.enums.BindTypeEnum;
-import com.bestpay.marketing.encourage.api.enums.MerchantTypeEnum;
-import com.bestpay.marketing.encourage.api.models.request.ActivationQrCodeReqDTO;
-import com.bestpay.marketing.encourage.api.models.request.ApplyAndActivateQrCodeReqDTO;
-import com.bestpay.marketing.encourage.api.models.request.ApplyQrCodeBatchReqDTO;
-import com.bestpay.marketing.encourage.api.models.request.EncourageEffectReqDTO;
-import com.bestpay.marketing.encourage.api.models.response.QrCodeDetailResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.encourage.api.EncourageConfigService;
+import com.xx.marketing.encourage.api.enums.BindTypeEnum;
+import com.xx.marketing.encourage.api.enums.MerchantTypeEnum;
+import com.xx.marketing.encourage.api.models.request.ActivationQrCodeReqDTO;
+import com.xx.marketing.encourage.api.models.request.ApplyAndActivateQrCodeReqDTO;
+import com.xx.marketing.encourage.api.models.request.ApplyQrCodeBatchReqDTO;
+import com.xx.marketing.encourage.api.models.request.EncourageEffectReqDTO;
+import com.xx.marketing.encourage.api.models.response.QrCodeDetailResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

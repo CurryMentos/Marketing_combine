@@ -6,16 +6,16 @@ import Customize.DataGenerate;
 import Customize.UserList;
 import com.google.common.collect.Lists;
 
-import com.bestpay.marketing.config.api.tools.request.ApplyRecConsumeRebateRuleReqDTO;
-import com.bestpay.marketing.config.api.activity.models.request.ApplyCashReqDTO;
-import com.bestpay.marketing.config.api.activity.models.request.ApplyCouponReqDTO;
-import com.bestpay.marketing.config.api.tools.request.ApplyRecommendPreferentialReqDTO;
-import com.bestpay.marketing.config.api.tools.request.ApplyRecommendRuleReqDTO;
-import com.bestpay.marketing.config.api.tools.request.ApplyRecommendedRuleReqDTO;
+import com.xx.marketing.config.api.tools.request.ApplyRecConsumeRebateRuleReqDTO;
+import com.xx.marketing.config.api.activity.models.request.ApplyCashReqDTO;
+import com.xx.marketing.config.api.activity.models.request.ApplyCouponReqDTO;
+import com.xx.marketing.config.api.tools.request.ApplyRecommendPreferentialReqDTO;
+import com.xx.marketing.config.api.tools.request.ApplyRecommendRuleReqDTO;
+import com.xx.marketing.config.api.tools.request.ApplyRecommendedRuleReqDTO;
 
-import com.bestpay.marketing.config.api.activity.models.request.*;
-import com.bestpay.marketing.config.api.enums.*;
-import com.bestpay.marketing.config.api.tools.request.ApplyToolRecommendBasicInfoReqDTO;
+import com.xx.marketing.config.api.activity.models.request.*;
+import com.xx.marketing.config.api.enums.*;
+import com.xx.marketing.config.api.tools.request.ApplyToolRecommendBasicInfoReqDTO;
 import org.yaml.snakeyaml.util.UriEncoder;
 
 import java.io.*;
@@ -261,7 +261,7 @@ public class Preset extends DataGenerate {
         //成本分摊列表
         List<CostReqDTO> costReqDTOList = new ArrayList();
         CostReqDTO costReqDTO = new CostReqDTO();
-        costReqDTO.setInvestorType(InvestorTypeEnum.BESTPAY.getCode());//出资方,支付公司
+        costReqDTO.setInvestorType(InvestorTypeEnum.xx.getCode());//出资方,支付公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.PROVINCE.getCode());//出资方,省公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.MERCHANT.getCode());//出资方,商户
 //        costReqDTO.setInvestorType(InvestorTypeEnum.GROUP.getCode());//出资方,集团公司
@@ -399,13 +399,13 @@ public class Preset extends DataGenerate {
 
         List<CostReqDTO> costReqDTOList = new ArrayList();
         CostReqDTO costReqDTO = new CostReqDTO();
-        costReqDTO.setInvestorType(InvestorTypeEnum.BESTPAY.getCode());//出资方,支付公司
+        costReqDTO.setInvestorType(InvestorTypeEnum.xx.getCode());//出资方,支付公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.PROVINCE.getCode());//出资方,省公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.MERCHANT.getCode());//出资方,商户
 //        costReqDTO.setInvestorType(InvestorTypeEnum.GROUP.getCode());//出资方,集团公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.DISTRICT.getCode());//出资方,地市公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.THIRD_PARTY.getCode());//出资方,第三方公司
-        costReqDTO.setInvestorName(InvestorTypeEnum.BESTPAY.getDesc());//出资方名称
+        costReqDTO.setInvestorName(InvestorTypeEnum.xx.getDesc());//出资方名称
 //        costReqDTO.setInvestmentWay(InvestmentWayEnum.PROVINCE_PREPAYMENT.getCode());//出资方式,省公司预付
         costReqDTO.setInvestmentWay(InvestmentWayEnum.PAY_COMPANY_COST.getCode());//出资方式,支付公司成本
 //        costReqDTO.setInvestmentWay(InvestmentWayEnum.THIRD_PARTY_PREPAYMENT.getCode());//出资方式,第三方预付(打款凭证)
@@ -549,13 +549,13 @@ public class Preset extends DataGenerate {
 
         List<CostReqDTO> costReqDTOList = new ArrayList();
         CostReqDTO costReqDTO = new CostReqDTO();
-        costReqDTO.setInvestorType(InvestorTypeEnum.BESTPAY.getCode());//出资方,支付公司
+        costReqDTO.setInvestorType(InvestorTypeEnum.xx.getCode());//出资方,支付公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.PROVINCE.getCode());//出资方,省公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.MERCHANT.getCode());//出资方,商户
 //        costReqDTO.setInvestorType(InvestorTypeEnum.GROUP.getCode());//出资方,集团公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.DISTRICT.getCode());//出资方,地市公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.THIRD_PARTY.getCode());//出资方,第三方公司
-        costReqDTO.setInvestorName(InvestorTypeEnum.BESTPAY.getDesc());//出资方名称
+        costReqDTO.setInvestorName(InvestorTypeEnum.xx.getDesc());//出资方名称
 //        costReqDTO.setInvestmentWay(InvestmentWayEnum.PROVINCE_PREPAYMENT.getCode());//出资方式,省公司预付
         costReqDTO.setInvestmentWay(InvestmentWayEnum.PAY_COMPANY_COST.getCode());//出资方式,支付公司成本
 //        costReqDTO.setInvestmentWay(InvestmentWayEnum.THIRD_PARTY_PREPAYMENT.getCode());//出资方式,第三方预付(打款凭证)
@@ -749,13 +749,13 @@ public class Preset extends DataGenerate {
         //成本分摊列表
         List<CostReqDTO> costReqDTOList = new ArrayList();
         CostReqDTO costReqDTO = new CostReqDTO();
-        costReqDTO.setInvestorType(InvestorTypeEnum.BESTPAY.getCode());//出资方,支付公司
+        costReqDTO.setInvestorType(InvestorTypeEnum.xx.getCode());//出资方,支付公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.PROVINCE.getCode());//出资方,省公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.MERCHANT.getCode());//出资方,商户
 //        costReqDTO.setInvestorType(InvestorTypeEnum.GROUP.getCode());//出资方,集团公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.DISTRICT.getCode());//出资方,地市公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.THIRD_PARTY.getCode());//出资方,第三方公司
-        costReqDTO.setInvestorName(InvestorTypeEnum.BESTPAY.getDesc());//出资方名称
+        costReqDTO.setInvestorName(InvestorTypeEnum.xx.getDesc());//出资方名称
 //        costReqDTO.setInvestmentWay(InvestmentWayEnum.PROVINCE_PREPAYMENT.getCode());//出资方式,省公司预付
         costReqDTO.setInvestmentWay(InvestmentWayEnum.PAY_COMPANY_COST.getCode());//出资方式,支付公司成本
 //        costReqDTO.setInvestmentWay(InvestmentWayEnum.THIRD_PARTY_PREPAYMENT.getCode());//出资方式,第三方预付(打款凭证)
@@ -893,13 +893,13 @@ public class Preset extends DataGenerate {
         //成本分摊列表
         List<CostReqDTO> costReqDTOList = new ArrayList();
         CostReqDTO costReqDTO = new CostReqDTO();
-        costReqDTO.setInvestorType(InvestorTypeEnum.BESTPAY.getCode());//出资方,支付公司
+        costReqDTO.setInvestorType(InvestorTypeEnum.xx.getCode());//出资方,支付公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.PROVINCE.getCode());//出资方,省公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.MERCHANT.getCode());//出资方,商户
 //        costReqDTO.setInvestorType(InvestorTypeEnum.GROUP.getCode());//出资方,集团公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.DISTRICT.getCode());//出资方,地市公司
 //        costReqDTO.setInvestorType(InvestorTypeEnum.THIRD_PARTY.getCode());//出资方,第三方公司
-        costReqDTO.setInvestorName(InvestorTypeEnum.BESTPAY.getDesc());//出资方名称
+        costReqDTO.setInvestorName(InvestorTypeEnum.xx.getDesc());//出资方名称
 //        costReqDTO.setInvestmentWay(InvestmentWayEnum.PROVINCE_PREPAYMENT.getCode());//出资方式,省公司预付
         costReqDTO.setInvestmentWay(InvestmentWayEnum.PAY_COMPANY_COST.getCode());//出资方式,支付公司成本
 //        costReqDTO.setInvestmentWay(InvestmentWayEnum.THIRD_PARTY_PREPAYMENT.getCode());//出资方式,第三方预付(打款凭证)

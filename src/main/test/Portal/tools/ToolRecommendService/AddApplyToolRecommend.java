@@ -4,17 +4,17 @@ import Customize.DataGenerate;
 import Portal.CustomizedService;
 import Portal.Preset;
 import Portal.ToolDTO;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.enums.ActionTypeEnum;
-import com.bestpay.marketing.config.api.enums.ApplyChannelEnum;
-import com.bestpay.marketing.config.api.enums.ToolTypeEnum;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.enums.ActionTypeEnum;
+import com.xx.marketing.config.api.enums.ApplyChannelEnum;
+import com.xx.marketing.config.api.enums.ToolTypeEnum;
 
 import java.util.Date;
 import java.util.List;
 
-import com.bestpay.marketing.config.api.tools.ToolRecommendService;
-import com.bestpay.marketing.config.api.tools.request.ApplyToolRecommendReqDTO;
-import com.bestpay.marketing.config.api.tools.response.ApplyToolRecommendResDTO;
+import com.xx.marketing.config.api.tools.ToolRecommendService;
+import com.xx.marketing.config.api.tools.request.ApplyToolRecommendReqDTO;
+import com.xx.marketing.config.api.tools.response.ApplyToolRecommendResDTO;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

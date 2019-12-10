@@ -1,10 +1,10 @@
 package Roster.RosterConfigService;
 import com.alibaba.fastjson.JSON;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.roster.api.models.request.merchant.GoodsApplyReqDTO;
-import com.bestpay.marketing.roster.api.models.request.merchant.MerchantApplyReqDTO;
-import com.bestpay.marketing.roster.api.models.request.merchant.StoreApplyReqDTO;
-import com.bestpay.marketing.roster.api.models.response.RosterApplyResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.roster.api.models.request.merchant.GoodsApplyReqDTO;
+import com.xx.marketing.roster.api.models.request.merchant.MerchantApplyReqDTO;
+import com.xx.marketing.roster.api.models.request.merchant.StoreApplyReqDTO;
+import com.xx.marketing.roster.api.models.response.RosterApplyResDTO;
 import com.google.common.collect.Lists;
 
 import java.util.ArrayList;
@@ -12,8 +12,8 @@ import java.util.Date;
 import java.util.List;
 
 import Customize.DataGenerate;
-import com.bestpay.marketing.roster.api.RosterConfigService;
-import com.bestpay.marketing.roster.api.models.request.merchant.MerchantRosterApplyReqDTO;
+import com.xx.marketing.roster.api.RosterConfigService;
+import com.xx.marketing.roster.api.models.request.merchant.MerchantRosterApplyReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

@@ -3,13 +3,13 @@ package Portal.activity.ActivityApplyService;
 import Portal.ActivityDTO;
 import Portal.CustomizedService;
 import Portal.Preset;
-import com.bestpay.marketing.config.api.activity.models.request.*;
-import com.bestpay.marketing.config.api.activity.models.response.AddApplyActivityResDTO;
-import com.bestpay.marketing.config.api.enums.*;
+import com.xx.marketing.config.api.activity.models.request.*;
+import com.xx.marketing.config.api.activity.models.response.AddApplyActivityResDTO;
+import com.xx.marketing.config.api.enums.*;
 
-import com.bestpay.dubbo.result.Result;
+import com.xx.dubbo.result.Result;
 
-import com.bestpay.marketing.config.api.activity.ActivityApplyService;
+import com.xx.marketing.config.api.activity.ActivityApplyService;
 import Customize.DataGenerate;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

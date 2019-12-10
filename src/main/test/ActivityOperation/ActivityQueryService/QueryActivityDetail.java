@@ -1,9 +1,9 @@
 package ActivityOperation.ActivityQueryService;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.activity.operation.api.ActivityQueryService;
-import com.bestpay.marketing.activity.operation.api.models.request.QueryActivityDetailReqDTO;
-import com.bestpay.marketing.activity.operation.api.models.response.ActivityDetailResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.activity.operation.api.ActivityQueryService;
+import com.xx.marketing.activity.operation.api.models.request.QueryActivityDetailReqDTO;
+import com.xx.marketing.activity.operation.api.models.response.ActivityDetailResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

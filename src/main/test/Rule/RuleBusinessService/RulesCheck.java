@@ -2,17 +2,17 @@ package Rule.RuleBusinessService;
 
 import Customize.DataGenerate;
 import Customize.UserList;
-import com.bestpay.marketing.rule.api.enums.UserActionTypeEnum;
-import com.bestpay.marketing.rule.api.enums.UserTypeEnum;
-import com.bestpay.marketing.rule.api.models.GoodsDetailDTO;
-import com.bestpay.marketing.rule.api.models.PayToolMessageDTO;
+import com.xx.marketing.rule.api.enums.UserActionTypeEnum;
+import com.xx.marketing.rule.api.enums.UserTypeEnum;
+import com.xx.marketing.rule.api.models.GoodsDetailDTO;
+import com.xx.marketing.rule.api.models.PayToolMessageDTO;
 
-import com.bestpay.marketing.rule.api.models.UserTradeActionDTO;
+import com.xx.marketing.rule.api.models.UserTradeActionDTO;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.rule.api.RuleBusinessService;
-import com.bestpay.marketing.rule.api.models.request.RulesCheckReqDTO;
-import com.bestpay.marketing.rule.api.models.response.RulesCheckResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.rule.api.RuleBusinessService;
+import com.xx.marketing.rule.api.models.request.RulesCheckReqDTO;
+import com.xx.marketing.rule.api.models.response.RulesCheckResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

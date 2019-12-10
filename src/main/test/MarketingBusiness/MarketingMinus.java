@@ -2,7 +2,7 @@ package MarketingBusiness;
 
 import Customize.SQLOperate;
 import Customize.UserList;
-import com.bestpay.marketing.minus.api.model.reqmodel.GoodsDetailDTO;
+import com.xx.marketing.minus.api.model.reqmodel.GoodsDetailDTO;
 import com.google.common.collect.Lists;
 
 import java.text.SimpleDateFormat;
@@ -11,11 +11,11 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-import com.bestpay.marketing.minus.api.model.MinusRequest;
-import com.bestpay.marketing.minus.api.model.reqmodel.MinusHoldRequest;
+import com.xx.marketing.minus.api.model.MinusRequest;
+import com.xx.marketing.minus.api.model.reqmodel.MinusHoldRequest;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import com.bestpay.marketing.minus.api.IMarketingMinusService;
+import com.xx.marketing.minus.api.IMarketingMinusService;
 import org.testng.annotations.Test;
 
 /**

@@ -2,9 +2,9 @@ package Portal.common.ModifyStatusService;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.common.ModifyStatusService;
-import com.bestpay.marketing.config.api.common.models.request.ModifyApplyStatusReqDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.common.ModifyStatusService;
+import com.xx.marketing.config.api.common.models.request.ModifyApplyStatusReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

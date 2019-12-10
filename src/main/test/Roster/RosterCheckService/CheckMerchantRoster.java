@@ -1,16 +1,16 @@
 package Roster.RosterCheckService;
 
 import com.alibaba.fastjson.JSON;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.roster.api.RosterCheckService;
-import com.bestpay.marketing.roster.api.models.response.merchant.MerchantCheckResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.roster.api.RosterCheckService;
+import com.xx.marketing.roster.api.models.response.merchant.MerchantCheckResDTO;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 import Customize.DataGenerate;
-import com.bestpay.marketing.roster.api.models.request.merchant.MerchantCheckReqDTO;
+import com.xx.marketing.roster.api.models.request.merchant.MerchantCheckReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

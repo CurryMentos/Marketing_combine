@@ -4,10 +4,10 @@ import java.util.Date;
 
 import Customize.DataGenerate;
 import com.alibaba.fastjson.JSON;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.common.UploadService;
-import com.bestpay.marketing.config.api.common.models.request.DownLoadAttachmentReqDTO;
-import com.bestpay.marketing.config.api.common.models.response.DownLoadAttachmentRespDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.common.UploadService;
+import com.xx.marketing.config.api.common.models.request.DownLoadAttachmentReqDTO;
+import com.xx.marketing.config.api.common.models.response.DownLoadAttachmentRespDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

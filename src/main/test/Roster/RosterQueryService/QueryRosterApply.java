@@ -3,10 +3,10 @@ import java.util.Date;
 
 import Customize.DataGenerate;
 import com.alibaba.fastjson.JSON;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.roster.api.RosterQueryService;
-import com.bestpay.marketing.roster.api.models.request.BaseReqDTO;
-import com.bestpay.marketing.roster.api.models.response.RosterApplyResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.roster.api.RosterQueryService;
+import com.xx.marketing.roster.api.models.request.BaseReqDTO;
+import com.xx.marketing.roster.api.models.response.RosterApplyResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

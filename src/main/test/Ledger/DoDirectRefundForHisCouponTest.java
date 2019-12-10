@@ -1,15 +1,15 @@
 package Ledger;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
-import com.bestpay.marketing.ledger.api.HisCouponService;
-import com.bestpay.marketing.ledger.api.enummodel.EquityTypeEnum;
-import com.bestpay.marketing.ledger.api.models.VerifySharingInfoDTO;
-import com.bestpay.marketing.ledger.api.models.request.HisCouponDirectRefundRequestDTO;
-import com.bestpay.marketing.ledger.api.models.request.HisCouponVerifyRequestDTO;
-import com.bestpay.marketing.ledger.api.models.result.HisCouponDirectRefundResultDTO;
-import com.bestpay.marketing.ledger.api.models.result.HisCouponVerifyResultDTO;
-import com.bestpay.utils.DateUtil;
+import com.xx.dubbo.result.Result;
+import com.xx.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
+import com.xx.marketing.ledger.api.HisCouponService;
+import com.xx.marketing.ledger.api.enummodel.EquityTypeEnum;
+import com.xx.marketing.ledger.api.models.VerifySharingInfoDTO;
+import com.xx.marketing.ledger.api.models.request.HisCouponDirectRefundRequestDTO;
+import com.xx.marketing.ledger.api.models.request.HisCouponVerifyRequestDTO;
+import com.xx.marketing.ledger.api.models.result.HisCouponDirectRefundResultDTO;
+import com.xx.marketing.ledger.api.models.result.HisCouponVerifyResultDTO;
+import com.xx.utils.DateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

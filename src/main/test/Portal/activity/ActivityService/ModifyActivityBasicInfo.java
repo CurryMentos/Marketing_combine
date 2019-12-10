@@ -1,15 +1,15 @@
 package Portal.activity.ActivityService;
 import java.util.Date;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.activity.models.request.ModifyOmpEquityBasicInfoDTO;
-import com.bestpay.marketing.config.api.activity.models.response.ModifyActivityResDTO;
-import com.bestpay.marketing.config.api.enums.*;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.activity.models.request.ModifyOmpEquityBasicInfoDTO;
+import com.xx.marketing.config.api.activity.models.response.ModifyActivityResDTO;
+import com.xx.marketing.config.api.enums.*;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
 
-import com.bestpay.marketing.config.api.activity.ActivityService;
-import com.bestpay.marketing.config.api.activity.models.request.ModifyActivityBasicInfoReqDTO;
+import com.xx.marketing.config.api.activity.ActivityService;
+import com.xx.marketing.config.api.activity.models.request.ModifyActivityBasicInfoReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

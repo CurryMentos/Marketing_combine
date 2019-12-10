@@ -2,12 +2,12 @@ package ActivityOperation.ActivityQueryService;
 import java.util.Date;
 import java.util.UUID;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.activity.operation.api.ActivityQueryService;
-import com.bestpay.marketing.activity.operation.api.models.request.QueryActivityListPageReqDTO;
-import com.bestpay.marketing.activity.operation.api.models.response.ActivityPageResDTO;
-import com.bestpay.marketing.activity.operation.api.models.response.PageInfoDTO;
-import com.bestpay.utils.DateUtil;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.activity.operation.api.ActivityQueryService;
+import com.xx.marketing.activity.operation.api.models.request.QueryActivityListPageReqDTO;
+import com.xx.marketing.activity.operation.api.models.response.ActivityPageResDTO;
+import com.xx.marketing.activity.operation.api.models.response.PageInfoDTO;
+import com.xx.utils.DateUtil;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

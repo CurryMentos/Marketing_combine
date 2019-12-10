@@ -1,13 +1,13 @@
 package TradeProduct;
 
-import com.bestpay.tradeproduct.service.acquiring.api.model.TradeProductGoodsDetailDTO;
+import com.xx.tradeproduct.service.acquiring.api.model.TradeProductGoodsDetailDTO;
 import com.google.common.collect.Lists;
 
 import Customize.DataGenerate;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.tradeproduct.service.acquiring.api.TradeProductSeniorOrderService;
-import com.bestpay.tradeproduct.service.acquiring.api.model.TradeProductCreateAndPayOrderReqDTO;
-import com.bestpay.tradeproduct.service.acquiring.api.model.result.TradeProductResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.tradeproduct.service.acquiring.api.TradeProductSeniorOrderService;
+import com.xx.tradeproduct.service.acquiring.api.model.TradeProductCreateAndPayOrderReqDTO;
+import com.xx.tradeproduct.service.acquiring.api.model.result.TradeProductResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;
@@ -45,7 +45,7 @@ public class CreateAndPay extends DataGenerate {
         tradeProductCreateAndPayOrderReqDTO.setRate(0l);//汇率
         tradeProductCreateAndPayOrderReqDTO.setForeignCcy("");//外币币种
         tradeProductCreateAndPayOrderReqDTO.setForeignAmount(0L);//外币金额
-//        tradeProductCreateAndPayOrderReqDTO.setStoreCode("ST00003");//门店号
+        tradeProductCreateAndPayOrderReqDTO.setStoreCode("ST00003");//门店号
         tradeProductCreateAndPayOrderReqDTO.setMerchantTradeNo("Mer" + RandomStringNo());
         tradeProductCreateAndPayOrderReqDTO.setStockMerchantOrderNo("");
         tradeProductCreateAndPayOrderReqDTO.setGoodsInfo("高级即时下单并支付");//商品信息摘要

@@ -8,18 +8,22 @@
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd"
        default-lazy-init="false">
 
-    <!--压测环境 -->
-    <!--<dubbo:registry protocol="zookeeper" address="xxx.xx.xx.x:2181"/>-->
+    <!--性能环境 -->
+    <!--<dubbo:registry protocol="zookeeper"  id="zookeeper" address="172.17.34.24:2181"/>-->
     <!--新综测环境-回归-->
-    <!--<dubbo:registry protocol="zookeeper" address="xxx.xx.xx.x:2181"/>-->
+    <!--<dubbo:registry protocol="zookeeper" address="172.17.164.250:2181"/>-->
 
     <!--46环境-->
-    <dubbo:registry protocol="zookeeper" id="zookeeper" address="zookeeper://xxx.xx.xx.x:2181"/>
+    <dubbo:registry protocol="zookeeper" id="zookeeper" address="zookeeper://172.17.45.14:2181"/>
     <!--综测环境-->
-    <!--<dubbo:registry protocol="zookeeper"  id="zookeeper" address="zookeeper://xxx.xx.xx.x:2181"/>-->
+    <!--<dubbo:registry protocol="zookeeper"  id="zookeeper" address="zookeeper://172.17.164.22:2181"/>-->
 
     <!-- 提供方应用信息，用于计算依赖关系 -->
-    <dubbo:application name="consumer-of-YxljConsumer-app"  />
+    <dubbo:application name="consumer-of-YxljConsumer-app"/>
+
+    <!--立减现金-->
+    <dubbo:reference id="iMarketingMinusService" retries="0" timeout="3000"
+                     interface="com.xx.marketing.minus.api.IMarketingMinusService"/>
     <!--双向激励-->
     <dubbo:reference id="encourageConfigService" timeout="3000" retries="0"
                      interface="com.xx.marketing.encourage.api.EncourageConfigService"/>
@@ -183,9 +187,12 @@
                      interface="com.xx.tradeproduct.service.acquiring.api.TradeProductRefundService"
                      version="1.0.0"/>
 
-<!--名单中心-->
-	<dubbo:reference id = "rosterCheckService"  timeout="3000" retries="0" interface="com.xx.marketing.roster.api.RosterCheckService"/>
-	<dubbo:reference id = "rosterConfigService"  timeout="3000" retries="0" interface="com.xx.marketing.roster.api.RosterConfigService"/>
-	<dubbo:reference id = "rosterQueryService"  timeout="3000" retries="0" interface="com.xx.marketing.roster.api.RosterQueryService"/>
+    <!--名单中心-->
+    <dubbo:reference id="rosterCheckService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.roster.api.RosterCheckService"/>
+    <dubbo:reference id="rosterConfigService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.roster.api.RosterConfigService"/>
+    <dubbo:reference id="rosterQueryService" timeout="3000" retries="0"
+                     interface="com.xx.marketing.roster.api.RosterQueryService"/>
 
 </beans>

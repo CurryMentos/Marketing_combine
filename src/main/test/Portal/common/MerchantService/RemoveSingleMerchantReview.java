@@ -3,10 +3,10 @@ package Portal.common.MerchantService;
 import java.util.Date;
 
 import Customize.DataGenerate;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
-import com.bestpay.marketing.config.api.common.MerchantService;
-import com.bestpay.marketing.config.api.common.models.request.RemoveSingleMerchantReviewReqDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
+import com.xx.marketing.config.api.common.MerchantService;
+import com.xx.marketing.config.api.common.models.request.RemoveSingleMerchantReviewReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

@@ -1,10 +1,10 @@
 package Limit;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.limit.api.LimitQueryService;
-import com.bestpay.marketing.limit.api.models.*;
-import com.bestpay.marketing.limit.api.models.request.AddDetailReqDTO;
-import com.bestpay.marketing.limit.api.models.request.CheckLimitReqDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.limit.api.LimitQueryService;
+import com.xx.marketing.limit.api.models.*;
+import com.xx.marketing.limit.api.models.request.AddDetailReqDTO;
+import com.xx.marketing.limit.api.models.request.CheckLimitReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

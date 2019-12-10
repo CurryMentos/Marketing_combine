@@ -2,11 +2,11 @@ package Portal.equity.EquityApplyService;
 
 import java.util.*;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.activity.models.request.*;
-import com.bestpay.marketing.config.api.activity.models.response.EquityInfoAddResDTO;
-import com.bestpay.marketing.config.api.enums.*;
-import com.bestpay.marketing.config.api.equity.EquityApplyService;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.activity.models.request.*;
+import com.xx.marketing.config.api.activity.models.response.EquityInfoAddResDTO;
+import com.xx.marketing.config.api.enums.*;
+import com.xx.marketing.config.api.equity.EquityApplyService;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -47,7 +47,7 @@ public class AddVoucher {
         List<CostReqDTO> costReqDTOList = new ArrayList();
         CostReqDTO costReqDTO = new CostReqDTO();
         //鍑鸿祫鏂? 鏋氫妇
-        costReqDTO.setInvestorType( InvestorTypeEnum.BESTPAY.getCode() );
+        costReqDTO.setInvestorType( InvestorTypeEnum.xx.getCode() );
         costReqDTO.setInvestorName( "" );//鍑鸿祫鏂瑰悕绉?
         //鍑鸿祫鏂瑰紡 璇锋牴鎹渶瑕佽嚜琛岃皟鐢?
         costReqDTO.setInvestmentWay( InvestmentWayEnum.PAY_COMPANY_TEST.getCode() );

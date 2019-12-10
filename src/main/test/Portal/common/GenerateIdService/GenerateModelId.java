@@ -4,9 +4,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.UUID;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.activity.models.request.GenerateModelIdReqDTO;
-import com.bestpay.marketing.config.api.common.GenerateIdService;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.activity.models.request.GenerateModelIdReqDTO;
+import com.xx.marketing.config.api.common.GenerateIdService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

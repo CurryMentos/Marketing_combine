@@ -1,9 +1,9 @@
 package Encourge.recommend.RecConfigService;
 
 import Customize.DataGenerate;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.recommend.api.RecConfigService;
-import com.bestpay.marketing.recommend.api.models.request.RecCancelEffectReqDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.recommend.api.RecConfigService;
+import com.xx.marketing.recommend.api.models.request.RecCancelEffectReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

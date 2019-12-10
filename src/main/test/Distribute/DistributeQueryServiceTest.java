@@ -1,10 +1,10 @@
 package Distribute;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
-import com.bestpay.marketing.distribute.api.DistributeQueryService;
-import com.bestpay.marketing.distribute.api.models.request.QueryDirectDistributeReqDTO;
-import com.bestpay.marketing.distribute.api.models.response.QueryDirectDistributeResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
+import com.xx.marketing.distribute.api.DistributeQueryService;
+import com.xx.marketing.distribute.api.models.request.QueryDirectDistributeReqDTO;
+import com.xx.marketing.distribute.api.models.response.QueryDirectDistributeResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.BeforeTest;

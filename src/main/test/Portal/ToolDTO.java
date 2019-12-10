@@ -1,7 +1,7 @@
 package Portal;
 
-import com.bestpay.marketing.config.api.activity.models.request.ApplyAttachmentReqDTO;
-import com.bestpay.marketing.config.api.tools.request.*;
+import com.xx.marketing.config.api.activity.models.request.ApplyAttachmentReqDTO;
+import com.xx.marketing.config.api.tools.request.*;
 
 /**
  * Created by zengyouzu on 2019/9/9.

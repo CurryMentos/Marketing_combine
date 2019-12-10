@@ -1,9 +1,9 @@
 package Encourge.recommend.RecQueryService;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.recommend.api.RecQueryService;
-import com.bestpay.marketing.recommend.api.models.request.RecBindingDetailReqDTO;
-import com.bestpay.marketing.recommend.api.models.response.RecBindingDetailResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.recommend.api.RecQueryService;
+import com.xx.marketing.recommend.api.models.request.RecBindingDetailReqDTO;
+import com.xx.marketing.recommend.api.models.response.RecBindingDetailResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

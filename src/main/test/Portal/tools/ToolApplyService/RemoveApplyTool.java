@@ -1,8 +1,8 @@
 package Portal.tools.ToolApplyService;//package tools.ToolApplyService;
 //
-//import com.bestpay.dubbo.result.Result;
-//import com.bestpay.marketing.config.api.tools.ToolApplyService;
-//import com.bestpay.marketing.config.api.tools.request.ToolApplyOperateReqDTO;
+//import com.xx.dubbo.result.Result;
+//import com.xx.marketing.config.api.tools.ToolApplyService;
+//import com.xx.marketing.config.api.tools.request.ToolApplyOperateReqDTO;
 //import org.springframework.context.ApplicationContext;
 //import org.springframework.context.support.ClassPathXmlApplicationContext;
 //import org.testng.annotations.Test;

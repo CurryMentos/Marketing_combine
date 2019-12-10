@@ -1,10 +1,10 @@
 package Portal.AuditService;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.audit.AuditService;
-import com.bestpay.marketing.config.api.audit.models.request.AuditQueryInfo;
-import com.bestpay.marketing.config.api.audit.models.response.AuditInfo;
-import com.bestpay.marketing.config.api.tools.response.ToolApplyInfoDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.audit.AuditService;
+import com.xx.marketing.config.api.audit.models.request.AuditQueryInfo;
+import com.xx.marketing.config.api.audit.models.response.AuditInfo;
+import com.xx.marketing.config.api.tools.response.ToolApplyInfoDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

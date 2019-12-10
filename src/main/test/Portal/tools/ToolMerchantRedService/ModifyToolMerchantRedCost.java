@@ -1,18 +1,18 @@
 package Portal.tools.ToolMerchantRedService;//package config.tools.ToolMerchantRedService;
-//import com.bestpay.marketing.config.api.activity.models.ModifyActivityVoucherCostInfoDTO;
-//import com.bestpay.marketing.config.api.activity.models.request.CostReqDTO;
+//import com.xx.marketing.config.api.activity.models.ModifyActivityVoucherCostInfoDTO;
+//import com.xx.marketing.config.api.activity.models.request.CostReqDTO;
 //import java.text.SimpleDateFormat;
 //import java.util.ArrayList;
 //import java.util.Date;
 //import java.util.List;
 //import java.util.UUID;
 //
-//import com.bestpay.dubbo.result.Result;
-//import com.bestpay.marketing.config.api.activity.models.ModifyActivityVoucherCostDTO;
-//import com.bestpay.marketing.config.api.activity.models.response.ModifyActivityResDTO;
+//import com.xx.dubbo.result.Result;
+//import com.xx.marketing.config.api.activity.models.ModifyActivityVoucherCostDTO;
+//import com.xx.marketing.config.api.activity.models.response.ModifyActivityResDTO;
 //import com.google.common.collect.Sets;
-//import com.bestpay.marketing.config.api.tools.ToolMerchantRedService;
-//import com.bestpay.marketing.config.api.tools.request.ModifyToolMerchantRedCostReqDTO;
+//import com.xx.marketing.config.api.tools.ToolMerchantRedService;
+//import com.xx.marketing.config.api.tools.request.ModifyToolMerchantRedCostReqDTO;
 //import org.springframework.context.ApplicationContext;
 //import org.springframework.context.support.ClassPathXmlApplicationContext;
 //import org.testng.annotations.Test;

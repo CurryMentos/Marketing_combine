@@ -6,12 +6,12 @@ import java.util.UUID;
 
 import Customize.DataGenerate;
 import com.alibaba.fastjson.JSON;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.common.UploadService;
-import com.bestpay.marketing.config.api.common.models.request.AttachmentReqDTO;
-import com.bestpay.marketing.config.api.common.models.response.AttachmentRespDTO;
-import com.bestpay.marketing.config.api.enums.FileTypeEnum;
-import com.bestpay.marketing.encourage.api.enums.MerchantTypeEnum;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.common.UploadService;
+import com.xx.marketing.config.api.common.models.request.AttachmentReqDTO;
+import com.xx.marketing.config.api.common.models.response.AttachmentRespDTO;
+import com.xx.marketing.config.api.enums.FileTypeEnum;
+import com.xx.marketing.encourage.api.enums.MerchantTypeEnum;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

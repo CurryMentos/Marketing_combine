@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 为这个mapper指定一个唯一的namespace，namespace的值习惯上设置成包名+sql映射文件名，这样就能够保证namespace的值是唯一的
+例如namespace="me.gacl.mapping.userMapper"就是me.gacl.mapping(包名)+userMapper(userMapper.xml文件去除后缀)
+ -->
+
+<mapper namespace="RebateTypeTest">
+
+    <insert id="insertRebateType" parameterType="Customize.SQLTable.Oracle.T_MARKET_REBATE_TYPE">
+        <selectKey keyProperty="RECORD_NO" resultType="java.lang.String" order="BEFORE" statementType="STATEMENT">
+            select to_char(sysDate,'dd') || lpad(seq_market_rebate_type_id.nextval,8,'0') as id from dual
+        </selectKey>
+
+        insert into t_market_rebate_type
+        (RECORD_NO,
+        REBATE_CODE_ID,
+        MIN_TXN_AMT,
+        MAX_TXN_AMT,
+        MIN_REBATE_AMT,
+        MAX_REBATE_AMT,
+        TXN_COUNT_STEP,
+        TXN_AMOUNT_STEP,
+        CALC_TYPE,
+        BASIC_AMT,
+        REBATE_PERCENTAGE,
+        FIXED_AMT,
+        REBATE_TYPE_DESC,
+        EFF_DATE,
+        EXP_DATE,
+        CREATE_TIME,
+        CREATE_USER_ID,
+        CHECK_FLAG,
+        CHECK_TIME,
+        CHECK_USER,
+        UPDATE_USER,
+        UPDATE_TIME,
+        REMARK,
+        UPPER_AMT,
+        LOWER_AMT,
+        MARKET_CFG_ID,
+        REBATE_LEVEL)
+        values
+        (#{RECORD_NO,jdbcType=VARCHAR},
+        #{REBATE_CODE_ID,jdbcType=VARCHAR},
+        #{MIN_TXN_AMT,jdbcType=BIGINT},
+        #{MAX_TXN_AMT,jdbcType=BIGINT},
+        #{MIN_REBATE_AMT,jdbcType=BIGINT},
+        #{MAX_REBATE_AMT,jdbcType=BIGINT},
+        #{TXN_COUNT_STEP,jdbcType=BIGINT},
+        #{TXN_AMOUNT_STEP,jdbcType=BIGINT},
+        #{CALC_TYPE,jdbcType=BIGINT},
+        #{BASIC_AMT,jdbcType=BIGINT},
+        #{REBATE_PERCENTAGE,jdbcType=VARCHAR},
+        #{FIXED_AMT,jdbcType=BIGINT},
+        #{REBATE_TYPE_DESC,jdbcType=VARCHAR},
+        #{EFF_DATE,jdbcType=VARCHAR},
+        #{EXP_DATE,jdbcType=VARCHAR},
+        #{CREATE_TIME,jdbcType=DATE},
+        #{CREATE_USER_ID,jdbcType=VARCHAR},
+        #{CHECK_FLAG,jdbcType=BIGINT},
+        #{CHECK_TIME,jdbcType=DATE},
+        #{CHECK_USER,jdbcType=VARCHAR},
+        #{UPDATE_USER,jdbcType=VARCHAR},
+        #{UPDATE_TIME,jdbcType=DATE},
+        #{REMARK,jdbcType=VARCHAR},
+        #{UPPER_AMT,jdbcType=BIGINT},
+        #{LOWER_AMT,jdbcType=BIGINT},
+        #{MARKET_CFG_ID,jdbcType=VARCHAR},
+        #{REBATE_LEVEL,jdbcType=VARCHAR})
+
+    </insert>
+
+    <select id="selectMinTxnAmt" parameterType="Customize.SQLTable.Oracle.T_MARKET_REBATE_TYPE"
+            resultType="Customize.SQLTable.Oracle.T_MARKET_REBATE_TYPE">
+
+        SELECT t.MIN_TXN_AMT FROM t_market_rebate_type t WHERE t.CHECK_FLAG = 2
+        AND t.MARKET_CFG_ID = #{MARKET_CFG_ID,jdbcType=VARCHAR}
+
+    </select>
+
+</mapper>

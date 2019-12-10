@@ -1,13 +1,13 @@
 package Ledger;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
-import com.bestpay.marketing.coupon.center.api.CouponDistributeService;
-import com.bestpay.marketing.coupon.center.api.model.request.CouponBatchInfoReqDTO;
-import com.bestpay.marketing.coupon.center.api.model.request.CouponDistributeDetialReqDTO;
-import com.bestpay.marketing.coupon.center.api.model.request.CouponDistributeReqDTO;
-import com.bestpay.marketing.coupon.center.api.model.request.CouponRecycleReqDTO;
-import com.bestpay.marketing.coupon.center.api.model.response.CouponDistributeResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
+import com.xx.marketing.coupon.center.api.CouponDistributeService;
+import com.xx.marketing.coupon.center.api.model.request.CouponBatchInfoReqDTO;
+import com.xx.marketing.coupon.center.api.model.request.CouponDistributeDetialReqDTO;
+import com.xx.marketing.coupon.center.api.model.request.CouponDistributeReqDTO;
+import com.xx.marketing.coupon.center.api.model.request.CouponRecycleReqDTO;
+import com.xx.marketing.coupon.center.api.model.response.CouponDistributeResDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

@@ -4,10 +4,10 @@ import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.common.DictService;
-import com.bestpay.marketing.config.api.common.models.DictDTO;
-import com.bestpay.marketing.config.api.common.models.request.ProvinceAndCityQueryReqDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.common.DictService;
+import com.xx.marketing.config.api.common.models.DictDTO;
+import com.xx.marketing.config.api.common.models.request.ProvinceAndCityQueryReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

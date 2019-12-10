@@ -2,10 +2,10 @@ package Encourge.recommend.RecBusinessService;
 
 import Customize.UserList;
 import Customize.DataGenerate;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.recommend.api.RecBusinessService;
-import com.bestpay.marketing.recommend.api.models.request.RecInvitationReqDTO;
-import com.bestpay.marketing.recommend.api.models.response.RecInvitationResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.recommend.api.RecBusinessService;
+import com.xx.marketing.recommend.api.models.request.RecInvitationReqDTO;
+import com.xx.marketing.recommend.api.models.response.RecInvitationResDTO;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

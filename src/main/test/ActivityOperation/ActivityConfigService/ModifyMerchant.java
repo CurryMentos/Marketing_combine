@@ -1,15 +1,15 @@
 package ActivityOperation.ActivityConfigService;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.activity.operation.api.models.GoodsDTO;
-import com.bestpay.marketing.activity.operation.api.models.StoreDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.activity.operation.api.models.GoodsDTO;
+import com.xx.marketing.activity.operation.api.models.StoreDTO;
 
 import java.util.*;
 
-import com.bestpay.marketing.activity.operation.api.models.MerchantDTO;
+import com.xx.marketing.activity.operation.api.models.MerchantDTO;
 
-import com.bestpay.marketing.activity.operation.api.ActivityConfigService;
-import com.bestpay.marketing.activity.operation.api.models.request.ModifyMerchantReqDTO;
+import com.xx.marketing.activity.operation.api.ActivityConfigService;
+import com.xx.marketing.activity.operation.api.models.request.ModifyMerchantReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

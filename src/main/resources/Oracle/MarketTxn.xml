@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 为这个mapper指定一个唯一的namespace，namespace的值习惯上设置成包名+sql映射文件名，这样就能够保证namespace的值是唯一的
+例如namespace="me.gacl.mapping.userMapper"就是me.gacl.mapping(包名)+userMapper(userMapper.xml文件去除后缀)
+ -->
+
+<mapper namespace="TxnTest">
+
+    <insert id="insertTxn" parameterType="Customize.SQLTable.Oracle.T_MARKET_TXN_TYPE_RELATION">
+
+        insert into T_MARKET_TXN_TYPE_RELATION
+        (RECORD_NO,
+        MARKET_CFG_ID,
+        OUT_TXN_TYPE,
+        TXN_TYPE,
+        VALID_FLAG,
+        CREATE_TIME,
+        CREATE_USER_ID,
+        CHECK_FLAG,
+        CHECK_TIME,
+        CHECK_USER,
+        UPDATE_USER,
+        UPDATE_TIME,
+        REMARK,
+        OUT_TXN_TYPE_DESC)
+        values
+        (#{RECORD_NO,jdbcType=VARCHAR},
+        #{MARKET_CFG_ID,jdbcType=VARCHAR},
+        #{OUT_TXN_TYPE,jdbcType=VARCHAR},
+        #{TXN_TYPE,jdbcType=VARCHAR},
+        #{VALID_FLAG,jdbcType=VARCHAR},
+        #{CREATE_TIME,jdbcType=TIMESTAMP},
+        #{CREATE_USER_ID,jdbcType=VARCHAR},
+        #{CHECK_FLAG,jdbcType=BIGINT},
+        #{CHECK_TIME,jdbcType=TIMESTAMP},
+        #{CHECK_USER,jdbcType=VARCHAR},
+        #{UPDATE_USER,jdbcType=VARCHAR},
+        #{UPDATE_TIME,jdbcType=TIMESTAMP},
+        #{REMARK,jdbcType=VARCHAR},
+        #{OUT_TXN_TYPE_DESC,jdbcType=VARCHAR},)
+
+    </insert>
+
+    <select id="selectTxn" parameterType="Customize.SQLTable.Oracle.T_MARKET_TXN_TYPE_RELATION"
+            resultType="Customize.SQLTable.Oracle.T_MARKET_TXN_TYPE_RELATION">
+
+        SELECT t.OUT_TXN_TYPE FROM t_market_txn_type_relation t WHERE t.VALID_FLAG = 1 AND t.CHECK_FLAG = 2
+        AND t.MARKET_CFG_ID = #{MARKET_CFG_ID,jdbcType=VARCHAR}
+
+    </select>
+
+</mapper>

@@ -1,15 +1,15 @@
 package Portal.common.UploadService;
-import com.bestpay.marketing.config.api.enums.FileTypeEnum;
-import com.bestpay.marketing.roster.api.enums.RelationTypeEnum;
-import com.bestpay.tradeproduct.service.common.api.enums.BizTypeEnum;
+import com.xx.marketing.config.api.enums.FileTypeEnum;
+import com.xx.marketing.roster.api.enums.RelationTypeEnum;
+import com.xx.tradeproduct.service.common.api.enums.BizTypeEnum;
 import com.google.common.collect.Lists;
 
 import Customize.DataGenerate;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
-import com.bestpay.marketing.config.api.common.UploadService;
-import com.bestpay.marketing.config.api.common.models.request.RosterDetailReqDTO;
-import com.bestpay.marketing.config.api.common.models.request.RosterReqDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
+import com.xx.marketing.config.api.common.UploadService;
+import com.xx.marketing.config.api.common.models.request.RosterDetailReqDTO;
+import com.xx.marketing.config.api.common.models.request.RosterReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

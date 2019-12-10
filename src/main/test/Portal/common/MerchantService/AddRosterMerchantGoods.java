@@ -1,13 +1,13 @@
 package Portal.common.MerchantService;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.common.models.request.RosterGoodsReqDTO;
-import com.bestpay.marketing.config.api.common.models.request.RosterMerchantReqDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.common.models.request.RosterGoodsReqDTO;
+import com.xx.marketing.config.api.common.models.request.RosterMerchantReqDTO;
 import com.google.common.collect.Lists;
 
 import Customize.DataGenerate;
-import com.bestpay.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
-import com.bestpay.marketing.config.api.common.MerchantService;
-import com.bestpay.marketing.config.api.common.models.request.RosterMerchantGoodsReqDTO;
+import com.xx.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
+import com.xx.marketing.config.api.common.MerchantService;
+import com.xx.marketing.config.api.common.models.request.RosterMerchantGoodsReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

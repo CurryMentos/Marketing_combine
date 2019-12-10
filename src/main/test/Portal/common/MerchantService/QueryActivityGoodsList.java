@@ -3,11 +3,11 @@ import java.util.Date;
 
 import Customize.DataGenerate;
 import com.alibaba.fastjson.JSON;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.config.api.activity.models.PageInfoDTO;
-import com.bestpay.marketing.config.api.common.MerchantService;
-import com.bestpay.marketing.config.api.common.models.request.QueryActivityGoodsReqDTO;
-import com.bestpay.marketing.config.api.common.models.response.GoodsResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.config.api.activity.models.PageInfoDTO;
+import com.xx.marketing.config.api.common.MerchantService;
+import com.xx.marketing.config.api.common.models.request.QueryActivityGoodsReqDTO;
+import com.xx.marketing.config.api.common.models.response.GoodsResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

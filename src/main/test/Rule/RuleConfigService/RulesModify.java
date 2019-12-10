@@ -1,24 +1,24 @@
 package Rule.RuleConfigService;
 
-import com.bestpay.marketing.config.api.enums.SwitchEnum;
-import com.bestpay.marketing.rule.api.enums.RosterTypeEnum;
+import com.xx.marketing.config.api.enums.SwitchEnum;
+import com.xx.marketing.rule.api.enums.RosterTypeEnum;
 import com.google.common.collect.Sets;
 
 import Customize.DataGenerate;
-import com.bestpay.marketing.config.api.enums.CarrierEnum;
-import com.bestpay.marketing.config.api.enums.CustomerLevelEnum;
-import com.bestpay.marketing.config.api.enums.UserDimensionEnum;
-import com.bestpay.marketing.coupon.product.api.common.enums.TradeChannelEnum;
+import com.xx.marketing.config.api.enums.CarrierEnum;
+import com.xx.marketing.config.api.enums.CustomerLevelEnum;
+import com.xx.marketing.config.api.enums.UserDimensionEnum;
+import com.xx.marketing.coupon.product.api.common.enums.TradeChannelEnum;
 
-import com.bestpay.marketing.rule.api.models.BaseRulesDTO;
+import com.xx.marketing.rule.api.models.BaseRulesDTO;
 
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.rule.api.RuleConfigService;
-import com.bestpay.marketing.rule.api.models.request.RulesModifyReqDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.rule.api.RuleConfigService;
+import com.xx.marketing.rule.api.models.request.RulesModifyReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

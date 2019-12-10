@@ -372,7 +372,7 @@ public class SQLOperate extends DatabaseUtil {
         List<String> MerchantIdList = new ArrayList<>();
         List<String> OutTxnTypeList = new ArrayList<>();
         List<String> TxnChannelList = new ArrayList<>();
-        
+
         InputStream inputStream = Resources.getResourceAsStream("Configuration.xml");
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();

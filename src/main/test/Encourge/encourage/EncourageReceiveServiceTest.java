@@ -1,10 +1,10 @@
 package Encourge.encourage;
 
 import Customize.UserList;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.encourage.api.EncourageReceiveService;
-import com.bestpay.marketing.encourage.api.models.request.ReceiveEquityReqDTO;
-import com.bestpay.marketing.encourage.api.models.response.ReceiveEquityResDTO;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.encourage.api.EncourageReceiveService;
+import com.xx.marketing.encourage.api.models.request.ReceiveEquityReqDTO;
+import com.xx.marketing.encourage.api.models.response.ReceiveEquityResDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

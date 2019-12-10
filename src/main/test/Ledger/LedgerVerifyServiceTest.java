@@ -1,13 +1,13 @@
 package Ledger;
 
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
-import com.bestpay.marketing.ledger.api.LedgerVerifyService;
-import com.bestpay.marketing.ledger.api.enummodel.EquityTypeEnum;
-import com.bestpay.marketing.ledger.api.models.VerifySharingInfoDTO;
-import com.bestpay.marketing.ledger.api.models.request.VerifyRequestDTO;
-import com.bestpay.marketing.ledger.api.models.result.VerifyResultDTO;
-import com.bestpay.utils.DateUtil;
+import com.xx.dubbo.result.Result;
+import com.xx.infra.skynet.testng.dataProviderUtils.spring.BeanUtil;
+import com.xx.marketing.ledger.api.LedgerVerifyService;
+import com.xx.marketing.ledger.api.enummodel.EquityTypeEnum;
+import com.xx.marketing.ledger.api.models.VerifySharingInfoDTO;
+import com.xx.marketing.ledger.api.models.request.VerifyRequestDTO;
+import com.xx.marketing.ledger.api.models.result.VerifyResultDTO;
+import com.xx.utils.DateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

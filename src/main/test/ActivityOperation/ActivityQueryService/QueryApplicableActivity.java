@@ -1,11 +1,11 @@
 package ActivityOperation.ActivityQueryService;
 
 import Customize.DataGenerate;
-import com.bestpay.dubbo.result.Result;
-import com.bestpay.marketing.activity.operation.api.ActivityQueryService;
-import com.bestpay.marketing.activity.operation.api.models.request.QueryApplicableActivityReqDTO;
-import com.bestpay.marketing.activity.operation.api.models.response.ApplicableActivityResDTO;
-import com.bestpay.marketing.config.api.enums.ToolTypeEnum;
+import com.xx.dubbo.result.Result;
+import com.xx.marketing.activity.operation.api.ActivityQueryService;
+import com.xx.marketing.activity.operation.api.models.request.QueryApplicableActivityReqDTO;
+import com.xx.marketing.activity.operation.api.models.response.ApplicableActivityResDTO;
+import com.xx.marketing.config.api.enums.ToolTypeEnum;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;

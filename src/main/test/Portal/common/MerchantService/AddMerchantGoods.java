@@ -1,11 +1,11 @@
 package Portal.common.MerchantService;
 import Customize.DataGenerate;
-import com.bestpay.dubbo.result.Result;
+import com.xx.dubbo.result.Result;
 import com.google.common.collect.Lists;
 import java.util.Date;
 
-import com.bestpay.marketing.config.api.common.MerchantService;
-import com.bestpay.marketing.config.api.common.models.request.AddMerchantGoodsReqDTO;
+import com.xx.marketing.config.api.common.MerchantService;
+import com.xx.marketing.config.api.common.models.request.AddMerchantGoodsReqDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;
